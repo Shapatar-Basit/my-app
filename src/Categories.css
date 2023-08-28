@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.MenuTable {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(5px); */
+  overflow: auto;
+}
+
+.MenuTable table {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.MenuTable th,
+.MenuTable td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.MenuTable th {
+  background-color: #f2f2f2;
+}
+
+.MenuTable tbody tr:hover {
+  background-color: #f8f8f8;
+  cursor: pointer;
+  color: gray;
+}
+
+@media (max-width: 768px) {
+  .MenuTable table {
+    width: 95%;
+  }
+
+  .MenuTable th,
+  .MenuTable td {
+    padding: 12px;
+  }
+}
