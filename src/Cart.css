@@ -1,0 +1,32 @@
+.cart-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-items li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.total-price {
+  text-align: right;
+  font-weight: bold;
+}
+
+button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 3px 8px;
+}

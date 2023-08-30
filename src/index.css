@@ -123,6 +123,9 @@
   background-color: whitesmoke;
   width: 250px;
   margin: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
 }
 
 .card:hover {
@@ -147,6 +150,20 @@
 .card-name {
   font-size: 18px;
   margin-bottom: 8px;
+  color: burlywood;
+}
+
+.card-browse {
+  margin-top: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.card-browse:hover {
+  background-color: #0056b3;
 }
 
 .card-button {

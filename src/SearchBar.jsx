@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function SeachBar() {
-  const [searchBar, SetsearchBar] = useState(" ");
+  const [searchBar, SetsearchBar] = useState("");
   const HandleseachBar = (e) => SetsearchBar(e.target.value);
 
   return (
@@ -11,10 +12,10 @@ function SeachBar() {
           <i className="fas fa-bars"></i>
         </div>
         <nav className="navBar">
-          <a href="Home">Home</a>
-          <a href="About">About</a>
-          <a href="Services">Services</a>
-          <a href="Help">Help</a>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/services">Services</Link>
+          <Link to="/help">Help</Link>
         </nav>
         <input
           placeholder="Search"

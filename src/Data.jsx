@@ -76,12 +76,12 @@ const Continental = [
 const FastFood = [
   {
     category: "Appetizers",
-    items: ["Canape", "Salad", "Chips & DIps"],
+    items: ["Canape", "Salad", "Chips & Dips"],
     price: ["250", "350", "100"],
   },
   {
     category: "Main Course",
-    items: ["Burger", "Han fish and chips", "sandwiches", " pitas"],
+    items: ["Burger", "Ham fish and chips", "sandwiches", " pitas"],
     price: ["250", "350", "100", "450"],
   },
   {
